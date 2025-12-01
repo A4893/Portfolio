@@ -235,7 +235,7 @@ export default function Menu(){
        {
      auth.isAuthenticated() && auth.isAuthenticated().user._id === "6923e3ac30cc74f6ca050644" && (
     <Link to="/authproject">
-      <Button style={isActive(location,"/authproject")}>Auth Projects</Button>
+      <Button style={isActive(location,"/authproject")}>Auth Projects Form</Button>
     </Link>)}
 
 
@@ -251,7 +251,7 @@ export default function Menu(){
     {
      auth.isAuthenticated() && auth.isAuthenticated().user._id === "6923e3ac30cc74f6ca050644" && (
     <Link to="/usermanagement">
-      <Button style={isActive(location,"/usermanagement")}>Auth Projects</Button>
+      <Button style={isActive(location,"/usermanagement")}>Auth Projects Management</Button>
     </Link>)}
 
 

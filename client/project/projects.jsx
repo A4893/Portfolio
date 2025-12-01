@@ -29,8 +29,12 @@ export default function Projects() {
           src={projectn2}
           alt="Projects Banner"
           className="worksImg"
-          width={1500}
-          height={80}
+          style={{ 
+            width: '300px',   // set a fixed width
+            height: 'auto',   // keep aspect ratio
+            display: 'block', // center with margin auto
+            margin: '0 auto' 
+          }}
         />
         <br /><br />
       </div>
