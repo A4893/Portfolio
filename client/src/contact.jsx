@@ -239,7 +239,17 @@ export default function Contact() {
     <div>
       <Typography variant="h4" align="center" gutterBottom>Contact</Typography>
           
-            <img src={contact4} alt="Contact" style={{ width: '100%', height:"auto" }} />
+       <img 
+          src={contact4} 
+          alt="Contact" 
+          style={{ 
+            width: '300px',   // set a fixed width
+            height: 'auto',   // keep aspect ratio
+            display: 'block', // center with margin auto
+            margin: '0 auto' 
+          }} 
+        />
+
             <br /><br />
           
             <Card style={{ maxWidth: 800, padding: "20px 5px", margin: "0 auto" }}>

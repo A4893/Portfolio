@@ -396,7 +396,12 @@ export default function Education() {
         src={academic}
         alt="Academic Qualification"
         className="worksImg"
-        style={{ width: '100%' }}
+        style={{ 
+            width: '300px',   // set a fixed width
+            height: 'auto',   // keep aspect ratio
+            display: 'block', // center with margin auto
+            margin: '0 auto' 
+          }}
       />
       <br /><br />
 
