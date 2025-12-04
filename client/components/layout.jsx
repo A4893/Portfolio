@@ -227,7 +227,7 @@ export default function Menu(){
       }
       <Link to="/about"><Button style={isActive(location,"/about")}>About</Button></Link>
       <Link to="/education"><Button style={isActive(location,"/education")}>Education</Button></Link>
-      <Link to="/project"><Button style={isActive(location,"/project")}>Project</Button></Link>
+//      <Link to="/project"><Button style={isActive(location,"/project")}>Project</Button></Link>
       <Link to="/contact"><Button style={isActive(location,"/contact")}>Contact</Button></Link>
 
 
